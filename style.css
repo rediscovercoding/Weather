@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(199, 241, 241);
+    background-image: url('/repos/Weather/IMG_8050.jpg');
+    background-size: cover;
+    text-align: center;
+    margin-top: 10%;
+}
+.main{
+    border: 2px solid rgb(150, 138, 133);
+    background-color: rgba(150, 138, 133, 0.25);
+    border-radius: 20px;
+    margin: auto;
+    width: 320px;
+    padding: 2%;
+}
+
+#tempReading{
+    font-size: 100px;
+}
+
+.condition{
+    font-size= 20px;
+    color:rgb(96, 187, 187) ;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.celciusFahr{
+    background-color: rgba(240, 248, 255, 0.555);
+    border-radius: 8px;
+    padding: 5px;
+}
+#unitSpan {
+    display: inline;
+}

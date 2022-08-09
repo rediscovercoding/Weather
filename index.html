@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="/repos/Weather/javascript.js" defer></script>
+</head>
+<body>
+    <div class="main">
+        <div class="searchBar">
+            <input type="text" id= 'cityName' value="Madrid">
+            <button onclick="fetchWeather()">Search</button>
+            
+        </div>
+        <div class="display">
+            <div class="temperatureDisplay"></div>
+            <div class="conditions"></div>
+        </div>
+        <div class="switchUnit"><span class="celciusFahr" onclick="switchUnit()"> &#176 C/ &#176F</span></div>
+    </div>
+</body>
+</html>
