@@ -1,6 +1,6 @@
 body{
     background-color: rgb(199, 241, 241);
-    background-image: url('/repos/Weather/IMG_8050.jpg');
+    background-image: url('./IMG_8050.jpg');
     background-size: cover;
     text-align: center;
     margin-top: 10%;
